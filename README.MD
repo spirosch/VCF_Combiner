@@ -6,5 +6,5 @@ Data: Directory with 1..* VCF Files
 - [ ] Create python project.
 - [ ] Create github repository.
 - [ ] Create a new empty file.
-- [ ] Open all the VNC files one by one.
+- [ ] Open all the VCC files one by one.
 - [ ] Read the content of each VNC file and write it in the new file.
