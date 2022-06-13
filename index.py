@@ -12,12 +12,13 @@ with open('combinedFile.vcf', 'w') as VCF_Final:
         readfile = contacts_file.readlines()
         count = 0
         for line in readfile:
-            count +=1
+
+            count += 1
+
             VCF_Final.write(line)
     print(VCF_Final)
 
-
-    #     contacts1 = open('VCF_Files/contacts.vcf', 'r')
+#     contacts1 = open('VCF_Files/contacts.vcf', 'r')
     #     readfile = contacts1.readlines()
     # count=0
     # for line in readfile:
@@ -25,9 +26,3 @@ with open('combinedFile.vcf', 'w') as VCF_Final:
     #     VCF_Final.write(line)
     #     # print(line)
     # print(VCF_Final)
-
-
-
-
-
-
